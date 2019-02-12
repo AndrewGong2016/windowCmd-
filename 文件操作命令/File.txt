@@ -1,0 +1,26 @@
+【Tip】command /?  // 查看command命令帮助说明
+
+#cd   切换目录
+  eg:cd /d d:   // 进入上次d盘所在的目录（或在直接输入：d:）
+  cd /d d:\src // 进入d:\src目录
+  
+dir  显示目录中的内容
+
+ren  文件或目录重命名
+
+tree 显示目录结构
+  tree d:\myfiles  // 显示d:\myfiles目录结构
+
+md  创建目录
+  mk abc          //创建abc目录
+  
+rd  删除目录
+  rd abc          //删除abc目录
+
+copy 拷贝文件
+  copy key.txt c:\doc  // 将当前目录下的key.txt拷贝到c:\doc下（若doc中也存在一个key.txt文件，会询问是否覆盖）
+
+move 移动文件
+  move /Y *.png test  // 将当前目录下的png图片移动到当前目录下test文件夹中 （不询问，直接覆盖写）
+
+del 删除文件   注意：目录及子目录都不会删除
