@@ -1,0 +1,20 @@
+【Tips】command /?  // 查看command命令帮助说明
+
+ping  // 用于检测网络是否通畅，以及网络时延情况（工作在ICMP协议上）
+  eg：ping -t baidu.com   // 不断地测试baidu服务器的连接情况   【Ctrl+Pause Break：查看ping的统计信息；Ctrl+C：终止当前任务】
+  
+ipconfig /all  // 查看本地ip地址等详细信息
+
+netstat -a   // 查看开启了哪些端口
+
+netstat -n  // 查看端口的网络连接情况
+
+netstat -v   // 查看正在进行的工作
+
+netstat -p tcp  // 查看tcp协议的使用情况
+
+tracert 182.140.167.44  // 查看本机到达182.140.167.44的路由路径
+
+route print  // 显示出IP路由
+
+telnet 182.140.167.44 8000   // 探测182.140.167.44是否使用TCP协议监听8000端口（注意：telnet命令不支持UDP端口检测）
